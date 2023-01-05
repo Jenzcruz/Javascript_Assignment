@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let input1 = prompt("Enter 1st Number");
+        
+        
+        
+        let score = parseInt(input1);
+        let letter;
+        if (score >= 90) {
+            letter = 'S'
+        }
+        else if (score >= 80) {
+            letter = 'A'
+        }
+        else if (score >= 70) {
+            letter = 'B'
+        }
+        else if (score >= 60) {
+            letter = 'C'
+        }
+        else if (score >= 50) {
+            letter = 'D'
+        }
+        else if (score >= 40) {
+            letter = 'E'
+
+        }
+        else {
+            letter = 'Student has failed';
+        }
+        console.log (letter)
+        document.write(letter)
+        </script>
+</body>
+</html>
